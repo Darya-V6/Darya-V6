@@ -1,0 +1,21 @@
+dd {
+    margin-bottom: 15px;
+    font-style: italic;
+}
+dt {
+    font-weight: bold;
+}
+
+kbd {
+    background-color: grey;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+#example-paragraphs {
+    background-color: white;
+    overflow: hidden;
+    resize: horizontal;
+    width: 9rem;
+    border: 2px dashed #999;
+}
