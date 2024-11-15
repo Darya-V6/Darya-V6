@@ -1,0 +1,146 @@
+/* roboto-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v32-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-700 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v32-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-900 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/roboto-v32-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+.center-buttons {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.center-buttons__item__active {
+    color: red;
+}
+
+.nav {
+    padding: 0 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+}
+.right-buttons{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.call-action {
+    margin-right: 25px;
+    height: 39px;
+    width: 162px;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 1px solid #6A6A6A;
+}
+
+.call-icon {
+    margin-right: 7px;
+    width: 26px;
+    height: 26px;
+}
+
+.map-icon {
+    margin-right: 25px;
+    width: 26px;
+    height: 26px;
+}
+
+.burger {
+    margin: 0 10px;
+    width: 41px;
+}
+
+.travel-dream {
+    background-image: url("../img/wallpapers.jpg");
+    height: 1083px;
+    background-position: center;
+}
+ h1{
+     font-size: 128px;
+     text-align: center;
+     color: white;
+     padding-top: 157px;
+ }
+ p {
+     font-size: 28px;
+     text-align: center;
+     color: white;
+     padding-top: 38px;
+     font-weight: 300;
+ }
+.liner {
+    display: flex;
+    justify-content: center;
+    padding-top: 33px;
+ }
+
+.galleria {
+    padding: 0 200px;
+    margin: 32px;
+    display: flex;
+    justify-content: start;
+}
+
+.galleria_item {
+    min-width: 256px;
+    max-width: 256px;
+    height: 340px;
+    background: black;
+    border-radius: 30px;
+    margin-right: 32px;
+}
+
+.galleria_item_img1 {
+    background-image: url("../img/town.jpeg");
+    background-size: cover;
+    background-position: left;
+}
+
+.galleria_item_img2 {
+    background-image: url("../img/francesco-bianco-61hZLxwCjnI-unsplash 1.jpg");
+    background-size: cover;
+    background-position: left;
+}
+.galleria_item_img3 {
+    background-image: url("../img/bechir-kaddech-VHUuWxbjyRI-unsplash 1.jpg");
+    background-size: cover;
+    background-position: left;
+}
+.galleria_item_img4 {
+    background-image: url("../img/darcey-beau-wD1gm2Vwc5I-unsplash 1.jpg");
+    background-size: cover;
+    background-position: left;
+}
